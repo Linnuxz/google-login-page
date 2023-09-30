@@ -12,7 +12,7 @@ const Footer = () => {
     };
 
     const listStyle = {
-        maxHeight: "40rem",
+        maxHeight: "35rem",
         overflowY: "auto",
     };
 
