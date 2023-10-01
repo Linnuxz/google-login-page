@@ -37,7 +37,7 @@ const Card = () => {
                     onBlur={handleBlur}
                 />
                 <label
-                    className={`absolute text-gray-500 left-[55px] mt-[14px] bg-white ${
+                    className={`absolute left-[55px] mt-[14px] bg-white ${
                         isFocused
                             ? "text-[#007bff] -top-[20px] ml-[-8px] text-xs focused px-[4px]"
                             : ""
@@ -59,7 +59,9 @@ const Card = () => {
                 </p>
             </div>
             <div className="mx-[41px] text-[14px]  flex justify-between mt-[40px] mb-[30px]">
-                <button className="text-[#1A73E8] hover:text-blue-900">Create account</button>
+                <button className="text-[#1A73E8] hover:text-blue-900">
+                    Create account
+                </button>
                 <button className="w-[80px] h-[36px] rounded text-white bg-blue-600 hover:bg-blue-700">
                     Next
                 </button>
